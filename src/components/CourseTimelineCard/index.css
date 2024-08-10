@@ -1,0 +1,61 @@
+/* Write your CSS here */
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+* {
+  font-family: 'Roboto';
+}
+li {
+  margin-bottom: 3px;
+}
+
+.card {
+  border-radius: 8px;
+
+  padding: 0px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.card-header .days {
+  font-size: 0.9rem;
+  color: #606060;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #606060;
+  margin-bottom: 15px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #f0f3f7;
+  color: #4a4a4a;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

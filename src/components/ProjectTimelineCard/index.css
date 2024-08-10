@@ -1,0 +1,64 @@
+/* Write your CSS here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  border-radius: 8px;
+
+  width: 320px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.card-header .time {
+  font-size: 0.9rem;
+  color: #606060;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #606060;
+  margin-bottom: 15px;
+}
+
+.visit-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.visit-link:hover {
+  text-decoration: underline;
+}
